@@ -694,10 +694,10 @@ ${formData.name}`;
             <div>
               <h3 className="text-white font-bold mb-4">Legal</h3>
               <div className="space-y-3">
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors text-sm">Privacidad</a>
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors text-sm">Términos</a>
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors text-sm">Aviso Legal</a>
-                <a href="#" className="block text-slate-400 hover:text-white transition-colors text-sm">Cookies</a>
+                <a href="/privacy" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/privacy'); window.dispatchEvent(new PopStateEvent('popstate')); }} className="block text-slate-400 hover:text-white transition-colors text-sm">Privacidad</a>
+                <a href="/terms" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/terms'); window.dispatchEvent(new PopStateEvent('popstate')); }} className="block text-slate-400 hover:text-white transition-colors text-sm">Términos</a>
+                <a href="/legal" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/legal'); window.dispatchEvent(new PopStateEvent('popstate')); }} className="block text-slate-400 hover:text-white transition-colors text-sm">Aviso Legal</a>
+                <a href="/cookies" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/cookies'); window.dispatchEvent(new PopStateEvent('popstate')); }} className="block text-slate-400 hover:text-white transition-colors text-sm">Cookies</a>
               </div>
             </div>
           </div>
