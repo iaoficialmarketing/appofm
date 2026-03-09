@@ -74,7 +74,7 @@ export default function CookieBanner() {
                     Utilizamos cookies propias y de terceros para mejorar tu experiencia de navegación, analizar el tráfico del sitio y personalizar el contenido. Puedes aceptar todas las cookies, rechazar las no esenciales o personalizar tus preferencias.
                   </p>
                   <p className="text-sm text-slate-600">
-                    Para más información, consulta nuestra <a href="/cookies" className="text-slate-900 font-semibold hover:underline">Política de Cookies</a> y <a href="/privacy" className="text-slate-900 font-semibold hover:underline">Política de Privacidad</a>.
+                    Para más información, consulta nuestra <a href="/cookies" className="text-slate-900 font-semibold hover:underline">Política de Cookies</a> y <a href="/privacy" className=\"text-slate-900 font-semibold hover:underline">Política de Privacidad</a>.
                   </p>
                 </div>
                 <button
